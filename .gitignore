@@ -1,1 +1,22 @@
-/bin/
+# Ignore the bin directory (compiled bytecode)
+bin/
+
+# Ignore build tool output directories like Maven or Gradle
+target/       # Maven
+build/        # Gradle
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Java files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
